@@ -2,7 +2,7 @@
 
 一个在线将`Markdown`内容转换成微信公众帐号内容的工具。
 
-- 线上地址: <https://www.techgrow.cn/markdown-weixin/>
+- 线上地址: <https://tool.techgrow.cn/markdown-weixin/>
 
 ### 效果图
 ![](https://raw.githubusercontent.com/rqh656418510/markdown-weixin/master/screenshot/demo.png)
