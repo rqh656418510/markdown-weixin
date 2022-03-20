@@ -20,7 +20,7 @@ $ cd markdown-weixin
 $ npm install
 
 # 构建项目
-$ node_modules/webpack/bin/webpack.js
+$ npm run build
 
 # 查看构建生成的文件（docs目录可直接部署到Web服务器）
 $ ls -al docs
