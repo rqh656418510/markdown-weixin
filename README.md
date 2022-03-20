@@ -3,7 +3,6 @@
 一个在线将`Markdown`内容转换成微信公众帐号内容的工具。
 
 - 线上地址: <https://www.techgrow.cn/markdown-weixin/>
-- 意见反馈: <https://github.com/rqh656418510/markdown-weixin/issues/new>
 
 ### 效果图
 ![](https://raw.githubusercontent.com/rqh656418510/markdown-weixin/master/screenshot/demo.png)
@@ -30,7 +29,7 @@ $ ls -al docs
 ### Changelog
 
 #### 版本号：V1.2.3
-更新日期：2022-01-27
+更新日期：2022-03-20
 
 - 升级jQuery版本
 - 增加谷歌站点分析
