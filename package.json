@@ -1,6 +1,6 @@
 {
   "name": "markdown-weixin",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "A online markdown converter specially for Wechat Public formatting.",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cnych/markdown-weixin.git"
+    "url": "https://github.com/rqh656418510/markdown-weixin.git"
   },
   "keywords": [
     "wechat",
     "markdown",
     "format"
   ],
-  "author": "阳明<icnych@gmail.com>",
+  "author": "Clay<rong656418510@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cnych/markdown-weixin/issues"
+    "url": "https://github.com/rqh656418510/markdown-weixin/issues"
   },
-  "homepage": "https://github.com/cnych/markdown-weixin",
+  "homepage": "https://github.com/rqh656418510/markdown-weixin",
   "dependencies": {
     "copy-webpack-plugin": "~4.0.1"
   },

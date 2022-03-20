@@ -1,4 +1,4 @@
-var $ = require("../jquery-3.1.1.js");
+var $ = require("../jquery-3.6.0.js");
 
 var themes = [
   'atelier-cave-dark',

@@ -1,7 +1,8 @@
 require('../css/index.less');
 
-var $ = require("./jquery-3.1.1.js");
+var $ = require("./jquery-3.6.0.js");
 var showdown = require("./showdown.js");
+var analytics = require("./analytics.js");
 var CodeTheme = require("./theme/code-theme");
 var PageTheme = require("./theme/page-theme");
 var Clipboard = require("./clipboard.min.js");
@@ -12,7 +13,6 @@ require("./showdown-plugins/showdown-footnote.js");
 
 require("./google-code-prettify/run_prettify.js");
 
-
 var kv = location.href.split('?')[1];
 kv = kv && kv.split('&') || [];
 var params = {};
@@ -22,7 +22,6 @@ $.each(kv, function(index, item) {
     params[m[0]]= m[1];
   }
 });
-
 
 var converter =  new showdown.Converter({
   extensions: ['prettify', 'tasklist', 'footnote'],
@@ -124,3 +123,5 @@ var OnlineMarkdown = {
 };
 
 OnlineMarkdown.init();
+
+analytics();

@@ -2,22 +2,41 @@
 
 一个在线将`Markdown`内容转换成微信公众帐号内容的工具。
 
-- 线上地址: <http://md.qikqiak.com/>
-- 意见反馈: <https://github.com/cnych/markdown-weixin/issues/new>
+- 线上地址: <https://www.techgrow.cn/markdown-weixin/>
+- 意见反馈: <https://github.com/rqh656418510/markdown-weixin/issues/new>
 
 ### 效果图
-![dashboard](http://sdn.haimaxy.com/screenshots/markdown-weixin.jpg)
+![](https://raw.githubusercontent.com/rqh656418510/markdown-weixin/master/screenshot/demo.png)
 
-### TODO
+### 项目构建
 
-- 自动保存功能
-- 增加多种主题样式
-- 增加本地图片自动上传图床功能
+``` sh
+# 拉取源代码
+$ git clone https://github.com/rqh656418510/markdown-weixin.git
+
+# 进入源代码目录
+$ cd markdown-weixin
+
+# 安装依赖
+$ npm install
+
+# 构建项目
+$ node_modules/webpack/bin/webpack.js
+
+# 查看构建生成的文件（docs目录可直接部署到Web服务器）
+$ ls -al docs
+```
 
 ### Changelog
 
+#### 版本号：V1.2.3
+更新日期：2022-01-27
+
+- 升级jQuery版本
+- 增加谷歌站点分析
+
 #### 版本号：V1.2.2
-更新日志：2020-03-19
+更新日期：2020-03-19
 
 - FIX 代码块出现数字编号的 BUG
 
@@ -36,7 +55,6 @@
 - 替换`google-code-prettify`源为国内`CDN`源
 - 支持更换代码样式主题
 - 代码长度溢出时横向滚动
-
 
 ### LICENSE
 
