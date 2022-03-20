@@ -4,7 +4,9 @@
   "description": "A online markdown converter specially for Wechat Public formatting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/webpack/bin/webpack.js",
+    "clean": "rm -rf docs"
   },
   "repository": {
     "type": "git",
