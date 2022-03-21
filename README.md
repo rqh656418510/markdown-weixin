@@ -26,6 +26,18 @@ $ npm run build
 $ ls -al docs
 ```
 
+### 使用 Docker
+
+``` sh
+# 构建镜像
+# docker build -f Dockerfile -t clay/markdown-weixin:latest .
+
+# 启动容器
+# docker run -d -p 8080:80 clay/markdown-weixin:latest
+```
+
+> 提示： Docker 容器运行起来之后，打开浏览器访问 `http://127.0.0.1:8080` 即可
+
 ### Changelog
 
 #### 版本号：V1.2.3
