@@ -13489,7 +13489,7 @@ module.exports = function() {
 
 const host = window.location.host;
 const google_analytics_id = "UA-135294383-1";
-const baidu_tongji_id = "84c09b30349a65573c5c642ff336969b";
+const baidu_tongji_id = "809c04787dd2765064154f60af53d234";
 
 function insertScript(src, async) {
 	var hm = document.createElement("script");
