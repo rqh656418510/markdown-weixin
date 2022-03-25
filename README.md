@@ -19,7 +19,7 @@ $ cd markdown-weixin
 # 安装依赖
 $ npm install
 
-# 构建项目
+# 构建生产环境
 $ npm run build
 
 # 查看构建生成的文件（docs目录可直接部署到Web服务器）
